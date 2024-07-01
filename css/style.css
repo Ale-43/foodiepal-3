@@ -1,0 +1,48 @@
+header .navbar .container-fluid {
+  background-color: #03007f;
+}
+
+header .navbar .container-fluid .navbar-brand {
+  color: white;
+  font-size: larger;
+  font-family: "Libre Caslon Text", serif;
+}
+
+header .navbar .container-fluid .fa-solid {
+  color: white;
+}
+
+.titulo1 {
+  padding-top: 160px;
+  font-family: "Libre Caslon Text", serif;
+  padding-left: 58px;
+}
+
+.contenido1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 50px;
+  padding-top: 34px;
+}
+
+.contenido2 {
+  display: flex;
+  padding-left: 50px;
+  padding-top: 10px;
+  background: #03007f;
+  width: 244px;
+  height: 38px;
+}
+
+.contenido2 .hijocontent2 {
+  background: white;
+  border-radius: 100px;
+}
+
+.contenido2 .hijocontent2 a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #03007f;
+}
+
+/*# sourceMappingURL=style.css.map */
