@@ -1,14 +1,37 @@
-header .navbar .container-fluid {
-  background-color: #03007f;
+body {
+  background-color: rgb(234, 234, 234);
 }
 
-header .navbar .container-fluid .navbar-brand {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #03007f;
+}
+header .navbar .container-xxl {
+  background-color: #03007f;
+}
+header .navbar .container-xxl .navbar-brand {
   color: white;
   font-size: larger;
   font-family: "Libre Caslon Text", serif;
 }
-
-header .navbar .container-fluid .fa-solid {
+header .navbar .container-xxl .fa-solid {
+  color: white;
+}
+header .navbar .container-xxl .offcanvas {
+  background-color: #2000e8;
+}
+header .navbar .container-xxl .offcanvas .offcanvas-title {
+  color: white;
+}
+header .navbar .container-xxl .offcanvas .btn-close {
+  background-color: white;
+}
+header .navbar .container-xxl .nav-item .nav-link {
   color: white;
 }
 
@@ -32,13 +55,15 @@ header .navbar .container-fluid .fa-solid {
   background: #03007f;
   width: 244px;
   height: 38px;
+  padding-bottom: 2px;
 }
-
 .contenido2 .hijocontent2 {
   background: white;
-  border-radius: 100px;
+  border-radius: 50px;
+  color: white;
+  font-size: larger;
+  font-family: "Libre Caslon Text", serif;
 }
-
 .contenido2 .hijocontent2 a {
   text-decoration: none;
   list-style-type: none;

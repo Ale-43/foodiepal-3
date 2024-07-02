@@ -18,15 +18,18 @@
     background: #03007f;
     width: 244px;
     height: 38px;
+    padding-bottom: 2px;
+    .hijocontent2 {
+        background: white;
+        border-radius: 50px;
+        color: white;
+        font-size: larger;
+        font-family: "Libre Caslon Text", serif;
+        a {
+            text-decoration: none;
+            list-style-type: none;
+            color: #03007f;
+        }
+    }
 }
 
-.contenido2 .hijocontent2 {
-    background: white;
-    border-radius: 100px;
-}
-
-.contenido2 .hijocontent2 a {
-    text-decoration: none;
-    list-style-type: none;
-    color: #03007f;
-}
