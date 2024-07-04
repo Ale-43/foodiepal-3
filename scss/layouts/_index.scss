@@ -3,3 +3,92 @@
     font-family: "Libre Caslon Text", serif;
     padding-left: 58px;
 }
+
+
+.container-sm {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-top: 34px;
+    .imagen {
+        box-shadow: 5cap;
+    }
+    .boton {
+        background-color: #0300f8;
+        width: 350px;
+        height: 59px;
+        text-align: center;
+        padding-top: 10px;
+        .boton2 {
+            text-decoration: none;
+            list-style-type: none;
+            color: #0300f8;
+            background-color: white;
+            border-radius: 100px;
+            font-family: "Libre Caslon Text", serif;
+            font-size: 20px;
+            padding: 6px;  
+        }
+    }
+}
+
+footer {
+    background-color: #0300f8;
+    .container-fluid {
+        display: block;
+        .Copyright {
+            color: white;
+            padding-left: 28px;
+            padding-top: 20px;
+            font-family: "Libre Caslon Text", serif;
+            font-size: 20px;
+        }
+        .opinión {
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 76px;
+            font-family: "Libre Caslon Text", serif;
+            font-size: 20px;
+        }
+        .formulario {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 36px;
+        }
+        .quienessomos {
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                color: white;
+                font-family: "Libre Caslon Text", serif;
+                font-size: 20px;
+            }
+            padding-left: 28px;
+            padding-top: 20px;
+        }
+        .negocio {
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                color: white;
+                font-family: "Libre Caslon Text", serif;
+                font-size: 20px;
+            }
+            padding-left: 28px;
+            padding-bottom: 20px;
+        }
+        .redessociales {
+            p {
+                font-size: 20px;
+                font-family: "Libre Caslon Text", serif;
+            }
+            padding-left: 28px;
+            padding-bottom: 20px;
+            color: white;
+        }
+    }
+
+}
