@@ -3,33 +3,3 @@
     font-family: "Libre Caslon Text", serif;
     padding-left: 58px;
 }
-
-.contenido1 {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 50px;
-    padding-top: 34px;
-}
-
-.contenido2 {
-    display: flex;
-    padding-left: 50px;
-    padding-top: 10px;
-    background: #03007f;
-    width: 244px;
-    height: 38px;
-    padding-bottom: 2px;
-    .hijocontent2 {
-        background: white;
-        border-radius: 50px;
-        color: white;
-        font-size: larger;
-        font-family: "Libre Caslon Text", serif;
-        a {
-            text-decoration: none;
-            list-style-type: none;
-            color: #03007f;
-        }
-    }
-}
-
