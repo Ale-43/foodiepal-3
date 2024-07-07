@@ -71,6 +71,43 @@ header .navbar .container-xxl .nav-item .nav-link {
   padding: 6px;
 }
 
+section .padre {
+  padding-left: 79px;
+}
+section .padre h1 {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 52px;
+  padding-bottom: 34px;
+  font-family: "Libre Caslon Text", serif;
+  color: #0300f8;
+  padding-top: 30px;
+}
+section .padre a {
+  text-decoration: none;
+  list-style-type: none;
+  width: 250px;
+  height: 150px;
+  background-color: #0300f8;
+  color: white;
+  border-radius: 150px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Libre Caslon Text", serif;
+}
+section .padre .favoritos {
+  text-decoration: none;
+  list-style-type: none;
+  width: 250px;
+  height: 150px;
+  background-color: white;
+  color: #0300f8;
+  border-radius: 150px;
+  font-size: 20px;
+  padding: 10px;
+  font-family: "Libre Caslon Text", serif;
+}
+
 footer {
   background-color: #0300f8;
 }
