@@ -108,7 +108,46 @@ section .padre .favoritos {
   font-family: "Libre Caslon Text", serif;
 }
 
+.contenedorpadre .contenedor {
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contenedorpadre .contenedor .menu {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-family: "Libre Caslon Text", serif;
+  color: #0300f8;
+}
+.contenedorpadre .contenedor .imagen {
+  width: 300px;
+}
+.contenedorpadre .contenedor .desc {
+  width: 300px;
+  height: 100px;
+  background-color: #0300f8;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.contenedorpadre2 .contenedor2 {
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contenedorpadre2 .contenedor2 .imagen2 {
+  width: 300px;
+}
+.contenedorpadre2 .contenedor2 .desc2 {
+  width: 300px;
+  height: 100px;
+  background-color: #0300f8;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+
 footer {
+  padding-top: 100px;
   background-color: #0300f8;
 }
 footer .container-fluid {

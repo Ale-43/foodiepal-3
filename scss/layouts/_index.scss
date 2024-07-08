@@ -73,7 +73,50 @@ section {
     }
 }
 
+.contenedorpadre {
+    .contenedor {
+        padding-left: 66px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .menu {
+            padding-top: 60px;
+            padding-bottom: 50px;
+            font-family: "Libre Caslon Text", serif;
+            color: #0300f8;
+        }
+        .imagen {
+            width: 300px;
+        }
+        .desc {
+            width: 300px;
+            height: 100px;
+            background-color: #0300f8;
+            color: white;
+            font-family: "Libre Caslon Text", serif;
+        }
+    }
+}
+
+.contenedorpadre2 {
+    .contenedor2 {
+        padding-left: 66px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        .imagen2 {
+            width: 300px;
+        }
+        .desc2 {
+            width: 300px;
+            height: 100px;
+            background-color: #0300f8;
+            color: white;
+            font-family: "Libre Caslon Text", serif;
+        }
+    }
+}
+
 footer {
+    padding-top: 100px;
     background-color: #0300f8;
     .container-fluid {
         display: block;
