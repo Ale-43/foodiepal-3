@@ -9,6 +9,65 @@ body {
   box-sizing: border-box;
 }
 
+footer {
+  padding-top: 100px;
+  background-color: #0300f8;
+}
+footer .container-fluid {
+  display: block;
+}
+footer .container-fluid .Copyright {
+  color: white;
+  padding-left: 28px;
+  padding-top: 20px;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 20px;
+}
+footer .container-fluid .opinión {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 76px;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 20px;
+}
+footer .container-fluid .formulario {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 36px;
+}
+footer .container-fluid .quienessomos {
+  padding-left: 28px;
+  padding-top: 20px;
+}
+footer .container-fluid .quienessomos a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 20px;
+}
+footer .container-fluid .negocio {
+  padding-left: 28px;
+  padding-bottom: 20px;
+}
+footer .container-fluid .negocio a {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 20px;
+}
+footer .container-fluid .redessociales {
+  padding-left: 28px;
+  padding-bottom: 20px;
+  color: white;
+}
+footer .container-fluid .redessociales p {
+  font-size: 20px;
+  font-family: "Libre Caslon Text", serif;
+}
+
 header {
   background-color: #03007f;
 }
@@ -40,6 +99,54 @@ header .navbar .container-xxl .nav-item .nav-link {
   padding-top: 160px;
   font-family: "Libre Caslon Text", serif;
   padding-left: 58px;
+  color: #0300f8;
+}
+
+.contenedorpadre .contenedor {
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contenedorpadre .contenedor .menu {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  font-family: "Libre Caslon Text", serif;
+  color: #0300f8;
+}
+.contenedorpadre .contenedor .imagen {
+  width: 300px;
+}
+.contenedorpadre .contenedor .desc {
+  width: 300px;
+  height: 100px;
+  background-color: #0300f8;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.contenedorpadre2 .contenedor2 {
+  padding-left: 66px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.contenedorpadre2 .contenedor2 .imagen2 {
+  width: 300px;
+}
+.contenedorpadre2 .contenedor2 .desc2 {
+  width: 300px;
+  height: 100px;
+  background-color: #0300f8;
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+}
+
+.tituloprimero {
+  color: #0300f8;
+  font-family: "Libre Caslon Text", serif;
+  padding-top: 52px;
+  padding-bottom: 52px;
+  display: flex;
+  justify-content: center;
 }
 
 .container-sm {
@@ -108,100 +215,28 @@ section .padre .favoritos {
   font-family: "Libre Caslon Text", serif;
 }
 
-.contenedorpadre .contenedor {
-  padding-left: 66px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.comidas {
+  display: flex;
+  justify-content: center;
 }
-.contenedorpadre .contenedor .menu {
-  padding-top: 60px;
-  padding-bottom: 50px;
-  font-family: "Libre Caslon Text", serif;
+.comidas .Menu {
   color: #0300f8;
-}
-.contenedorpadre .contenedor .imagen {
-  width: 300px;
-}
-.contenedorpadre .contenedor .desc {
-  width: 300px;
-  height: 100px;
-  background-color: #0300f8;
-  color: white;
   font-family: "Libre Caslon Text", serif;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
-.contenedorpadre2 .contenedor2 {
-  padding-left: 66px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.contenedorpadre2 .contenedor2 .imagen2 {
-  width: 300px;
-}
-.contenedorpadre2 .contenedor2 .desc2 {
-  width: 300px;
-  height: 100px;
-  background-color: #0300f8;
-  color: white;
-  font-family: "Libre Caslon Text", serif;
-}
-
-footer {
-  padding-top: 100px;
-  background-color: #0300f8;
-}
-footer .container-fluid {
-  display: block;
-}
-footer .container-fluid .Copyright {
-  color: white;
-  padding-left: 28px;
-  padding-top: 20px;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 20px;
-}
-footer .container-fluid .opinión {
-  color: white;
+.container {
   display: flex;
-  justify-content: flex-end;
-  padding-right: 76px;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 20px;
 }
-footer .container-fluid .formulario {
-  display: flex;
-  justify-content: flex-end;
-  padding-right: 36px;
+.container .row .col {
+  padding-left: 30px;
+  padding-bottom: 46px;
 }
-footer .container-fluid .quienessomos {
-  padding-left: 28px;
-  padding-top: 20px;
-}
-footer .container-fluid .quienessomos a {
-  text-decoration: none;
-  list-style-type: none;
+.container .row .col h4 {
   color: white;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 20px;
-}
-footer .container-fluid .negocio {
-  padding-left: 28px;
-  padding-bottom: 20px;
-}
-footer .container-fluid .negocio a {
-  text-decoration: none;
-  list-style-type: none;
-  color: white;
-  font-family: "Libre Caslon Text", serif;
-  font-size: 20px;
-}
-footer .container-fluid .redessociales {
-  padding-left: 28px;
-  padding-bottom: 20px;
-  color: white;
-}
-footer .container-fluid .redessociales p {
-  font-size: 20px;
+  background-color: #0300f8;
+  height: 90px;
   font-family: "Libre Caslon Text", serif;
 }
 

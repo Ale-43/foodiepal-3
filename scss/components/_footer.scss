@@ -1,0 +1,59 @@
+footer {
+    padding-top: 100px;
+    background-color: #0300f8;
+    .container-fluid {
+        display: block;
+        .Copyright {
+            color: white;
+            padding-left: 28px;
+            padding-top: 20px;
+            font-family: "Libre Caslon Text", serif;
+            font-size: 20px;
+        }
+        .opinión {
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 76px;
+            font-family: "Libre Caslon Text", serif;
+            font-size: 20px;
+        }
+        .formulario {
+            display: flex;
+            justify-content: flex-end;
+            padding-right: 36px;
+        }
+        .quienessomos {
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                color: white;
+                font-family: "Libre Caslon Text", serif;
+                font-size: 20px;
+            }
+            padding-left: 28px;
+            padding-top: 20px;
+        }
+        .negocio {
+            a {
+                text-decoration: none;
+                list-style-type: none;
+                color: white;
+                font-family: "Libre Caslon Text", serif;
+                font-size: 20px;
+            }
+            padding-left: 28px;
+            padding-bottom: 20px;
+        }
+        .redessociales {
+            p {
+                font-size: 20px;
+                font-family: "Libre Caslon Text", serif;
+            }
+            padding-left: 28px;
+            padding-bottom: 20px;
+            color: white;
+        }
+    }
+
+}
