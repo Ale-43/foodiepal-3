@@ -1,0 +1,53 @@
+.primero {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    .firsttitle {
+        color: #03007f;
+        font-family: "Libre Caslon Text", serif;
+    }
+}
+
+.secondtitle {
+    display: flex;
+    padding-left: 40px;
+    padding-top: 100px;
+    .titulosegundo {
+        color: #03007f;
+        font-family: "Libre Caslon Text", serif;
+    }
+}
+
+.padreprincipal {
+    display: block;
+    padding-left: 50px;
+    padding-top: 75px;
+    .dia {
+        color: #03007f;
+        background-color: #7775ff;
+        width: 500px;
+        border-radius: 100px;
+        font-family: "Libre Caslon Text", serif;
+        padding-left: 10px;
+    }
+}
+
+.padredequejas {
+    display: flex;
+    justify-content: flex-end;
+    .quejas {
+        color: #03007f;
+        background-color: #9d9bff;
+        width: 200px;
+        height: 60px;
+        padding-top: 20px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+        .elemento {
+            list-style-type: none;
+            text-decoration: none;
+        }
+    }
+}
