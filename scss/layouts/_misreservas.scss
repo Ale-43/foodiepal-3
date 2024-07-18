@@ -32,22 +32,29 @@
     }
 }
 
-.padredequejas {
+.quiencontiene {
     display: flex;
     justify-content: flex-end;
-    .quejas {
-        color: #03007f;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    .btn-float {
+        position: fixed;
         background-color: #9d9bff;
+        padding-top: 15px;
         width: 200px;
         height: 60px;
-        padding-top: 20px;
         border-radius: 100px;
         display: flex;
         justify-content: center;
-        padding-bottom: 20px;
         .elemento {
+            color: #03007f;
+            padding-bottom: 20px;
             list-style-type: none;
             text-decoration: none;
         }
     }
 }
+
+
+
+

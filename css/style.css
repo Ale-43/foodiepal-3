@@ -274,22 +274,25 @@ section .padre .favoritos {
   padding-left: 10px;
 }
 
-.padredequejas {
+.quiencontiene {
   display: flex;
   justify-content: flex-end;
+  padding-bottom: 20px;
+  padding-right: 20px;
 }
-.padredequejas .quejas {
-  color: #03007f;
+.quiencontiene .btn-float {
+  position: fixed;
   background-color: #9d9bff;
+  padding-top: 15px;
   width: 200px;
   height: 60px;
-  padding-top: 20px;
   border-radius: 100px;
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
 }
-.padredequejas .quejas .elemento {
+.quiencontiene .btn-float .elemento {
+  color: #03007f;
+  padding-bottom: 20px;
   list-style-type: none;
   text-decoration: none;
 }
