@@ -275,8 +275,6 @@ section .padre .favoritos {
 }
 
 .quiencontiene {
-  display: flex;
-  justify-content: flex-end;
   padding-bottom: 20px;
   padding-right: 20px;
 }
@@ -284,6 +282,8 @@ section .padre .favoritos {
   position: fixed;
   background-color: #9d9bff;
   padding-top: 15px;
+  bottom: 40px;
+  right: 40px;
   width: 200px;
   height: 60px;
   border-radius: 100px;
@@ -292,9 +292,18 @@ section .padre .favoritos {
 }
 .quiencontiene .btn-float .elemento {
   color: #03007f;
-  padding-bottom: 20px;
   list-style-type: none;
   text-decoration: none;
+}
+
+.quejas {
+  padding-left: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.quejas .quejoso {
+  color: #0300b7;
+  font-family: "Libre Caslon Text", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

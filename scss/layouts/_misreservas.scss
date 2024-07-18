@@ -33,14 +33,14 @@
 }
 
 .quiencontiene {
-    display: flex;
-    justify-content: flex-end;
     padding-bottom: 20px;
     padding-right: 20px;
     .btn-float {
         position: fixed;
         background-color: #9d9bff;
         padding-top: 15px;
+        bottom: 40px;
+        right: 40px;
         width: 200px;
         height: 60px;
         border-radius: 100px;
@@ -48,7 +48,6 @@
         justify-content: center;
         .elemento {
             color: #03007f;
-            padding-bottom: 20px;
             list-style-type: none;
             text-decoration: none;
         }
