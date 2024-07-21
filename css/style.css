@@ -306,4 +306,19 @@ section .padre .favoritos {
   font-family: "Libre Caslon Text", serif;
 }
 
+.estoesunaqueja {
+  display: flex;
+  justify-content: center;
+  font-size: 21px;
+  font-family: "Libre Caslon Text", serif;
+}
+.estoesunaqueja .textodequeja {
+  background-color: #bdbdbd;
+  color: #0300b7;
+}
+.estoesunaqueja .formnuevo {
+  color: #bdbdbd;
+  width: 1000px;
+}
+
 /*# sourceMappingURL=style.css.map */
